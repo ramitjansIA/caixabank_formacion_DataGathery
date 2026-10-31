@@ -10,6 +10,8 @@ __pycache__/
 presentaciones/_site/
 presentaciones/.quarto/
 presentaciones/*_files/
+**/*_files/
+**/.quarto/
 artifacts/
 generated/
 models/

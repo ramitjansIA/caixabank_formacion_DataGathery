@@ -1,12 +1,12 @@
-session_01:
+session_12:
   - id: banco_espana_fachada
-    file: sesion_01/banco_de_espana.jpg
+    file: ../../12_automatizacion_web_i/recursos/banco_de_espana.jpg
     title: Banco de España, Madrid
     author: Luis García
     source: https://commons.wikimedia.org/wiki/File:Lascar_Banco_de_Espa%C3%B1a_(Bank_of_Spain)_-_Central_Bank_of_Spain_(4607212122).jpg
     license: CC BY-SA 2.0
   - id: chrome_devtools
-    file: sesion_01/chrome_devtools.png
+    file: ../../12_automatizacion_web_i/recursos/chrome_devtools.png
     title: Chrome DevTools — panel Elements
     author: Google Chrome Developers
     source: https://developer.chrome.com/docs/devtools/

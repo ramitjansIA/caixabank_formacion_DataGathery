@@ -1,12 +1,13 @@
 ---
 title: "Automatización Web I"
 subtitle: "Banco de España y evidencia de auditoría"
+output-file: "12_automatizacion_web_i_presentacion.html"
 lang: es
 format:
   revealjs:
     theme: default
     embed-resources: true
-    css: [plantilla_estilo.css, plantilla_academico.css, plantilla_revision.css, sesion_01.css]
+    css: [plantilla_estilo.css, plantilla_academico.css, plantilla_revision.css, estilo_sesion.css]
     center: true
     width: 1600
     height: 900
@@ -16,7 +17,7 @@ format:
 
 ## La investigación de auditoría
 
-<div class="figure-layout"><div><p class="eyebrow">CASO SINTÉTICO AUD-2026-017</p><p class="claim">Varias llamadas sospechosas podrían formar parte de una campaña de suplantación bancaria.</p><p>El equipo investiga qué ocurrió y qué controles debían detectarlo. Empezamos reuniendo información pública que pueda orientar las preguntas.</p><p class="focus">Una publicación pública aporta contexto. Para demostrar qué conocía la entidad necesitaremos además evidencia interna.</p></div><div><img src="recursos/sesion_01/banco_de_espana.jpg" alt="Fachada del Banco de España"><p class="source-note">Luis García, Wikimedia Commons. CC BY-SA 2.0. Enlace completo en fuentes.</p></div></div>
+<div class="figure-layout"><div><p class="eyebrow">CASO SINTÉTICO AUD-2026-017</p><p class="claim">Varias llamadas sospechosas podrían formar parte de una campaña de suplantación bancaria.</p><p>El equipo investiga qué ocurrió y qué controles debían detectarlo. Empezamos reuniendo información pública que pueda orientar las preguntas.</p><p class="focus">Una publicación pública aporta contexto. Para demostrar qué conocía la entidad necesitaremos además evidencia interna.</p></div><div><img src="recursos/banco_de_espana.jpg" alt="Fachada del Banco de España"><p class="source-note">Luis García, Wikimedia Commons. CC BY-SA 2.0. Enlace completo en fuentes.</p></div></div>
 
 ## El resultado de esta sesión
 
@@ -24,7 +25,7 @@ format:
 
 ## Inspección del documento
 
-<div class="figure-layout"><div><img src="recursos/sesion_01/chrome_devtools.png" alt="Panel Elements de Chrome DevTools"><p class="source-note">Chrome for Developers. CC BY 4.0. Captura ilustrativa del inspector.</p></div><div><p class="eyebrow">RECORDATORIO APLICADO</p><p class="claim">El contenedor repetido determina qué consideramos un registro.</p><p>Inspeccionamos fecha, título y enlace. Probamos el selector con varios registros y comprobamos si el contenido llega en el HTML o requiere JavaScript.</p><p class="focus">HTTP transporta la respuesta. BeautifulSoup analiza el HTML recibido. El DOM del navegador puede incluir cambios posteriores de JavaScript.</p></div></div>
+<div class="figure-layout"><div><img src="recursos/chrome_devtools.png" alt="Panel Elements de Chrome DevTools"><p class="source-note">Chrome for Developers. CC BY 4.0. Captura ilustrativa del inspector.</p></div><div><p class="eyebrow">RECORDATORIO APLICADO</p><p class="claim">El contenedor repetido determina qué consideramos un registro.</p><p>Inspeccionamos fecha, título y enlace. Probamos el selector con varios registros y comprobamos si el contenido llega en el HTML o requiere JavaScript.</p><p class="focus">HTTP transporta la respuesta. BeautifulSoup analiza el HTML recibido. El DOM del navegador puede incluir cambios posteriores de JavaScript.</p></div></div>
 
 ## Petición HTTP y contenido dinámico
 

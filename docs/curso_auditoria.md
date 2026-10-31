@@ -11,6 +11,13 @@ El curso no pretende decidir si existe fraude ni automatizar una conclusión de 
 
 ## Historia acumulativa
 
+Las carpetas nuevas siguen la numeración global del repositorio: de
+`12_automatizacion_web_i/` a `22_integracion_revision_humana/`. El índice pedagógico
+1–11 que aparece en esta arquitectura y en los identificadores internos del caso se
+conserva; por ejemplo, `session_01` identifica los artefactos del bloque 12. Cada carpeta
+reúne el notebook público, la presentación y los recursos de su bloque. Los bloques
+anteriores al 12 mantienen su estructura actual.
+
 | Sesión | Pieza incorporada al expediente |
 |---|---|
 | 1. Automatización Web I | Extracción del Banco de España y primer artefacto trazable |

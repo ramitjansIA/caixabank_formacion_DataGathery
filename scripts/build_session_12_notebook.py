@@ -1,4 +1,4 @@
-"""Construye el notebook público de la sesión 01 sin incluir soluciones."""
+"""Construye el notebook público del bloque 12 sin incluir soluciones."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ from pathlib import Path
 from textwrap import dedent
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "12_web_scraping_para_auditoria.ipynb"
+OUTPUT = ROOT / "12_automatizacion_web_i/notebook_alumnado.ipynb"
 
 
 def markdown(source: str, *, cell_id: str, tags: list[str] | None = None) -> dict:
@@ -33,7 +33,7 @@ def code(source: str, *, cell_id: str, tags: list[str] | None = None) -> dict:
 cells = [
     markdown(
         """
-        # Sesión 01 · Automatización Web I
+        # Sesión 12 · Automatización Web I
 
         **Banco de España y evidencia de auditoría · 6 de noviembre de 2026 · 12:30–13:30**
 
