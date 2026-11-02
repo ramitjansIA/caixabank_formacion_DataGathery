@@ -1,0 +1,32 @@
+[
+  {
+    "id": "DEMO-001",
+    "importe": "1200000.00",
+    "anio": 2025
+  },
+  {
+    "id": "DEMO-002",
+    "importe": "800000.00",
+    "anio": 2025
+  },
+  {
+    "id": "DEMO-003",
+    "importe": "pendiente",
+    "anio": 2025
+  },
+  {
+    "id": "   ",
+    "importe": "700000.00",
+    "anio": 2025
+  },
+  {
+    "id": "DEMO-001",
+    "importe": "1200000.00",
+    "anio": 2025
+  },
+  {
+    "id": "DEMO-004",
+    "importe": "900000.00",
+    "anio": 2099
+  }
+]
