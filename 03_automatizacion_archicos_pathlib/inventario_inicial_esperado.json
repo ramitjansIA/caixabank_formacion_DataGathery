@@ -1,0 +1,49 @@
+{
+  "archivos": [
+    {
+      "ruta": "entrada/archivo.tar.gz",
+      "nombre": "archivo.tar.gz",
+      "extension": ".gz",
+      "bytes": 58
+    },
+    {
+      "ruta": "entrada/con espacios.txt",
+      "nombre": "con espacios.txt",
+      "extension": ".txt",
+      "bytes": 54
+    },
+    {
+      "ruta": "entrada/listado_2024.csv",
+      "nombre": "listado_2024.csv",
+      "extension": ".csv",
+      "bytes": 34
+    },
+    {
+      "ruta": "entrada/listado_2025.CSV",
+      "nombre": "listado_2025.CSV",
+      "extension": ".csv",
+      "bytes": 34
+    },
+    {
+      "ruta": "entrada/notas.txt",
+      "nombre": "notas.txt",
+      "extension": ".txt",
+      "bytes": 47
+    },
+    {
+      "ruta": "entrada/subcarpeta/contexto.json",
+      "nombre": "contexto.json",
+      "extension": ".json",
+      "bytes": 42
+    },
+    {
+      "ruta": "entrada/vacio.txt",
+      "nombre": "vacio.txt",
+      "extension": ".txt",
+      "bytes": 0
+    }
+  ],
+  "n_archivos": 7,
+  "bytes_totales": 269,
+  "nota": "Rutas relativas. No se fijan fechas ni carpeta temporal; UTF-8 y saltos LF."
+}

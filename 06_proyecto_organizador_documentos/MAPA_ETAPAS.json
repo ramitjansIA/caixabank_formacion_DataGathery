@@ -1,0 +1,97 @@
+[
+  {
+    "archivo": "01_demo.py",
+    "funciones": [
+      "crear_demo"
+    ]
+  },
+  {
+    "archivo": "02_configuracion.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas"
+    ]
+  },
+  {
+    "archivo": "03_clasificacion.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas",
+      "clasificar"
+    ]
+  },
+  {
+    "archivo": "04_plan.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas",
+      "clasificar",
+      "resolver_destino",
+      "planificar"
+    ]
+  },
+  {
+    "archivo": "05_simulacion.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas",
+      "clasificar",
+      "resolver_destino",
+      "planificar",
+      "resumen_plan"
+    ]
+  },
+  {
+    "archivo": "06_copia_contrastada.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas",
+      "clasificar",
+      "resolver_destino",
+      "planificar",
+      "resumen_plan",
+      "copiar_documento"
+    ]
+  },
+  {
+    "archivo": "07_ejecucion.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas",
+      "clasificar",
+      "resolver_destino",
+      "planificar",
+      "resumen_plan",
+      "copiar_documento",
+      "ejecutar"
+    ]
+  },
+  {
+    "archivo": "08_cli.py",
+    "funciones": [
+      "crear_demo",
+      "leer_json",
+      "cargar_proyecto",
+      "cargar_reglas",
+      "clasificar",
+      "resolver_destino",
+      "planificar",
+      "resumen_plan",
+      "copiar_documento",
+      "ejecutar",
+      "main"
+    ]
+  }
+]
