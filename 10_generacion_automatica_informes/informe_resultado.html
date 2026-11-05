@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Observatorio · Informe documental</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#edf3f5;color:#173342;font:17px/1.5 system-ui,sans-serif}
+main{max-width:1100px;margin:auto;padding:36px}header{border-bottom:4px solid #00a3a3;padding-bottom:14px}
+h1,h2{color:#003b5c;line-height:1.16}h1{font-size:clamp(28px,5vw,50px);margin:8px 0}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+.kpi div{background:white;border-top:4px solid #00a3a3;padding:16px}
+.kpi strong{display:block;font-size:30px;color:#003b5c}table{border-collapse:collapse;width:100%;background:white}
+th,td{text-align:left;padding:10px;border-bottom:1px solid #d5e0e5;overflow-wrap:anywhere}
+th{background:#003b5c;color:white}.detalle{overflow-x:auto}
+@media print{body{background:white}main{padding:0}tr{break-inside:avoid}thead{display:table-header-group}}
+</style>
+</head>
+<body><main>
+<header><span>OBSERVATORIO · CONTROL DOCUMENTAL</span><h1>Informe de extracción PDF</h1><p>Periodo declarado · Lote de aula 01</p></header>
+<section class="kpi" aria-label="Indicadores">
+<div><strong>3</strong>Archivos del índice</div>
+<div><strong>4</strong>Páginas inspeccionadas</div>
+<div><strong>50,0%</strong>Páginas con texto</div>
+<div><strong>2</strong>Páginas por revisar</div>
+</section>
+<p>Archivos inspeccionados: 3. Cifrados: 0. Errores: 0.</p>
+<p>Texto extraído en 2 páginas y 2 referencias distintas recuperadas.</p>
+<h2>Detalle y procedencia</h2>
+<div class="detalle"><table><thead><tr><th scope="col">Archivo</th><th scope="col">Página</th><th scope="col">Estado</th><th scope="col">Referencias</th></tr></thead>
+<tbody><tr><td>01_digital.pdf</td><td>1</td><td>texto extraido</td><td>DOC-001</td></tr>
+<tr><td>02_escaneado.pdf</td><td>1</td><td>sin texto extraido</td><td>—</td></tr>
+<tr><td>03_mixto.pdf</td><td>1</td><td>texto extraido</td><td>DOC-004</td></tr>
+<tr><td>03_mixto.pdf</td><td>2</td><td>sin texto extraido</td><td>—</td></tr></tbody></table></div>
+<h2>Cómo interpretar la cobertura</h2>
+<p>Se dividen las páginas con texto extraído entre todas las páginas inspeccionadas. Los archivos cifrados o con errores se contabilizan aparte. Las páginas sin texto extraído se derivan a diagnóstico, OCR o revisión visual.</p>
+</main></body></html>

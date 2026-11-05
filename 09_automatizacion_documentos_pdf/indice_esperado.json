@@ -1,0 +1,48 @@
+[
+  {
+    "archivo": "01_digital.pdf",
+    "estado": "inspeccionado",
+    "paginas": [
+      {
+        "pagina": 1,
+        "caracteres": 105,
+        "estado": "texto_extraido",
+        "ids": [
+          "DOC-001"
+        ]
+      }
+    ]
+  },
+  {
+    "archivo": "02_escaneado.pdf",
+    "estado": "inspeccionado",
+    "paginas": [
+      {
+        "pagina": 1,
+        "caracteres": 0,
+        "estado": "sin_texto_extraido",
+        "ids": []
+      }
+    ]
+  },
+  {
+    "archivo": "03_mixto.pdf",
+    "estado": "inspeccionado",
+    "paginas": [
+      {
+        "pagina": 1,
+        "caracteres": 105,
+        "estado": "texto_extraido",
+        "ids": [
+          "DOC-004"
+        ]
+      },
+      {
+        "pagina": 2,
+        "caracteres": 0,
+        "estado": "sin_texto_extraido",
+        "ids": []
+      }
+    ]
+  }
+]
