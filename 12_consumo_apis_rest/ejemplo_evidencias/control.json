@@ -1,0 +1,42 @@
+{
+  "fuente": {
+    "origen": "Cotizaciones sintéticas de aula",
+    "sha256_csv": "6da5ff5cb08038128c71db64a85dbe52d0ef578a10717bef653eb0498ef7e16f",
+    "tolerancia_eur": "0.01",
+    "criterio_fecha": "Fecha exacta de la operación"
+  },
+  "resultados": [
+    {
+      "id": "OP-001",
+      "fecha": "2024-01-02",
+      "estado": "dentro_tolerancia",
+      "usd_por_eur": "1.1000",
+      "eur_esperado": "1000.00",
+      "diferencia_eur": "0.00"
+    },
+    {
+      "id": "OP-002",
+      "fecha": "2024-01-03",
+      "estado": "revisar",
+      "usd_por_eur": "1.0800",
+      "eur_esperado": "1000.00",
+      "diferencia_eur": "15.00"
+    },
+    {
+      "id": "OP-003",
+      "fecha": "2024-01-04",
+      "estado": "dentro_tolerancia",
+      "usd_por_eur": "1.0900",
+      "eur_esperado": "100.00",
+      "diferencia_eur": "0.01"
+    },
+    {
+      "id": "OP-004",
+      "fecha": "2024-01-06",
+      "estado": "sin_referencia",
+      "usd_por_eur": null,
+      "eur_esperado": null,
+      "diferencia_eur": null
+    }
+  ]
+}
